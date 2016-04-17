@@ -1,7 +1,16 @@
+@media (min-width: 768px){
+#tf-home .content br{
+    display: none;
+    }
+}
+
 @media (max-width: 768px){
   .content {
 	padding: 40% 0 0;
 	}
+#tf-home .content br{
+    line-height: 130%;
+    }
 }
 
 @media (max-width: 603px){
